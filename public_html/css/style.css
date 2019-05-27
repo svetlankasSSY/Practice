@@ -7,18 +7,22 @@ img{
 body{
     /*background-color: rgba(245,245,234,.5);*/
     font-family: 'Open Sans', sans-serif;
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Roboto:400,500&display=swap&subset=cyrillic-ext');
     /*font-family: 'Montserrat', sans-serif;*/
 }
 section{
-    margin: 80px 0;
+    margin: 50px 0;
 }
 h1,h2,h3{
     margin: 2rem 0;
+    font-family: 'Montserrat';
     color: #523f3f;
+    font-weight: 600;
 }
 h2{
     text-align: center;
     margin-bottom: 30px;
+   
 }
 h2:after{
     content: url(../img/mind.png);
@@ -26,7 +30,9 @@ h2:after{
     line-height: .2;
 }
 h3{
+   margin: 1.5rem 0;
     font-size: 24px;
+    
 }
 /* =============== Header ============= */
 header{
@@ -101,7 +107,7 @@ header img.logo{
     text-align: center;
 }
 .feature-item .fa{
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
     font-size: 34px;
     color: #a18e7f;
 }
@@ -234,8 +240,11 @@ footer .social img{
     section{
         margin: 50px 0;
     }
+    h2{
+        font-size: 1.5 rem;
+    }
     h3{
-        font-size: 18px;
+        font-size: 1.125 rem;
     }
     .banner{
         background-position:bottom;
